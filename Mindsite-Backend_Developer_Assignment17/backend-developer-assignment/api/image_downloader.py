@@ -15,8 +15,8 @@ from scraper import get_image_urls
 from database import SessionLocal, engine
 from sqlalchemy.orm import Session
 import models
-from models import Image
-import a
+import asyncio
+import pytz
 
 turkey_timezone = pytz.timezone('Europe/Istanbul')
 
